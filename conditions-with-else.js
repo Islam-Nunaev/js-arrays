@@ -5,10 +5,14 @@ const userAge = 20;
   напиши ниже условие, которое выведет в консоль текст "ты пацан" 
   если userAge меньше 35, иначе выведет текст "не по-пацански"
 */
-if(userAge < 35)
-if(userAge > 35)
-console.log("ты пацан" )
-console.log("ты пацан" )
+if(userAge < 35){
+  console.log("ты пацан" )
+}else {
+  console.log("не по-пацански" )
+}
+
+
+
 
 //задание 2
 const isUser = false;
